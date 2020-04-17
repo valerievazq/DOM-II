@@ -8,12 +8,15 @@
 
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  
 
   <script src="js/index.js" async></script>
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" defer></script>
 </head>
 
 <body>
@@ -82,9 +85,23 @@
     </section>
   </div><!-- container -->
 
+<!-- My Form -->
+ <section id='form-section'>
+<h3>Create your account to stay updated</h3>
+  <form id="form">
+    
+    <input type="text" id="fname" class="box" name="fname" placeholder="What People Call You"><br>
+    <input type="email" id="email" class="box" name="email" placeholder="Electronic Letter Address"><br><br>
+    <input type="password" id="pword" class="box" name="pword" placeholder="Super Secret Password"><br>
+    <input type="submit" class='box' value="Submit">
+  </form> 
+</section>
+<!-- My Form -->
+
   <footer class="footer">
     <p>Copyright Fun Bus 2018</p>
   </footer>
 
+ 
 </body>
 </html>
